@@ -1,0 +1,12 @@
+{
+  "name": "imap-test",
+  "description": "imap-test",
+  "repository": "imap-test",
+  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "imap-simple": "^5.0.0"
+  },
+  "devDependencies": {}
+}
