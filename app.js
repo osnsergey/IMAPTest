@@ -10,7 +10,7 @@ var config = {
         user: user,
         password: password,
         host: host,       
-        "tlsOptions": { "servername": host },
+        "tlsOptions": { "servername": host , rejectUnauthorized: false},
         port: 993,
         tls: true,
         authTimeout: 3000
